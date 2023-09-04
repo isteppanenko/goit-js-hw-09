@@ -16,3 +16,46 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.styles-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 52px 40px;
+}
+.start-btm {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.start-btm:hover {
+  transform: scale(1.05);
+  background-color: #45a049;
+}
+
+.start-button:active {
+  transform: scale(0.95);
+}
+.stop-btm {
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.stop-btm:hover {
+  transform: scale(1.05);
+  background-color: #c64133;
+}
+
+.stop-btm:active {
+  transform: scale(0.95);
+}
