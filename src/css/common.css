@@ -17,6 +17,11 @@ img {
   max-width: 100%;
 }
 
+/**
+  |============================
+  | STYLE - TASK-1
+  |============================
+*/
 .styles-body {
   display: flex;
   flex-direction: column;
@@ -58,4 +63,56 @@ img {
 
 .stop-btm:active {
   transform: scale(0.95);
+}
+
+/**
+  |============================
+  | STYLE TASK - 2
+  |============================
+*/
+/* Стилізація для інпута та кнопки */
+input#datetime-picker {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[data-start] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[data-start]:hover {
+  background-color: #45a049;
+}
+
+/* Стилізація для таймера */
+.timer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.field {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgba(23, 60, 97, 0.06);
+}
+
+.value {
+  font-size: 24px;
+}
+
+.label {
+  font-size: 16px;
+  color: rgba(30, 37, 43, 0.4);
 }
